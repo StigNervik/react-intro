@@ -1,0 +1,20 @@
+{
+  "name": "react-intro",
+  "version": "1.0.0",
+  "description": "An introduction to React framework",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "author": "Stig Nervik",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  }
+}
